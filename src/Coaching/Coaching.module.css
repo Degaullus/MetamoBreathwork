@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.h1 {
+  font-size: 5rem;
+  font: bold;
+}
+
+listcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.dot-list {
+  list-style-type: disc;
+}
