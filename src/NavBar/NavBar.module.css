@@ -1,0 +1,36 @@
+/* NavBar.module.css */
+
+.metamo {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.navbar {
+  overflow: hidden; /* Clear floats */
+}
+
+.navbar ul {
+  list-style-type: none; /* Remove bullets */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox to display items horizontally */
+  justify-content: space-evenly;
+  font-size: 2rem;
+}
+
+.navbar li {
+  float: left; /* Float the list items to the left */
+}
+
+.navbar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 2rem 2rem;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.navbar li a:hover {
+  transform: scale(1.1); /* Scale up the element on hover */
+}
