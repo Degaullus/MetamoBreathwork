@@ -8,15 +8,21 @@
   font-style: normal;
 }
 
-body {
-  font-family: "Domine", sans-serif;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+}
+
+body {
+  font-family: "Domine", sans-serif;
+  font-size: 1.4rem;
+}
+
+p {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 html {
@@ -31,4 +37,6 @@ h4,
 h5,
 h6 {
   font-family: "CooperHewitt", sans-serif;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
 }

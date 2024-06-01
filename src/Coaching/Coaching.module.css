@@ -1,8 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.header h1 {
+  position: absolute;
+  top: 10%; /* Adjust as necessary */
+  left: 50%; /* Adjust as necessary */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: white; /* Adjust text color for readability */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+  font: bold;
+}
+
+.coaching {
+  padding-top: 10rem;
+}
+
+.begleitung {
+  padding-top: 0rem;
+}
+
+.content {
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .div {
@@ -12,16 +45,30 @@
   flex-direction: column;
 }
 
-.h1 {
-  font-size: 5rem;
-  font: bold;
+.listcontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
 }
 
-listcontainer {
+.dotlist {
+  padding-left: 1.5rem;
+}
+
+.dotlist li {
+  list-style-type: disc;
+  padding-top: 0.8rem;
+}
+
+/* Wie ich arbeite */
+
+.boxoptions {
   display: flex;
   flex-direction: row;
 }
 
-.dot-list {
-  list-style-type: disc;
+.icons {
+  width: 20%;
+  height: auto;
+  padding-right: 1.5rem;
 }
